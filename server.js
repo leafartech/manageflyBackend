@@ -32,7 +32,7 @@ const sessionOpt = session({
 //CORS
 const cors = require('cors')
 const corsOptions = {
-    origin:'https://managefly-frontend.vercel.app/', 
+    origin:'https://managefly-frontend.vercel.app/entrar', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }
